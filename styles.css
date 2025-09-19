@@ -92,23 +92,24 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 50px auto;
 }
 
 .cards {
     display: flex;
-    gap: 30px;
+    margin-top: 50px;
 }
 
 .card {
-    width: 300px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .img-container {
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
     border: 1px solid #D100D1;
     border-radius: 10px;
     object-fit: contain;
@@ -118,13 +119,31 @@ h1 {
 }
 
 .img-container img {
-    width: 80%;
+    width: 90%;
 }
 
 .card h3{
-
+    font-size: 16px;
 }
 
 .card p {
     text-align: center;
+    font-size: 12px;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+}
+
+.testimonial .container {
+    display: flex;
+    padding: 6rem 8rem;
+}
+
+blockquote {
+    text-align: center;
+}
+
+cite {
+    margin-left: 1rem;
 }
