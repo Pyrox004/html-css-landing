@@ -25,6 +25,7 @@ header {
         background-color: #111111;
         border-bottom: 2px solid #D100D1;
         position: sticky;
+        top: 0;
 }
 
 header .container {
