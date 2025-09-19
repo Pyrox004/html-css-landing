@@ -138,6 +138,7 @@ h1 {
 .testimonial .container {
     display: flex;
     padding: 6rem 8rem;
+    margin: 4rem auto;
 }
 
 blockquote {
@@ -147,3 +148,41 @@ blockquote {
 cite {
     margin-left: 1rem;
 }
+
+.call-to-action .container {
+    display: flex;
+    justify-content: center;
+    margin: 4rem auto;
+}
+
+.cta-container {
+    background-color: #D100D1;
+    padding: 4rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.cta-text {
+    max-width: 70%;
+}
+
+.cta-text h3 {
+    font-size: 14pt;
+}
+
+.cta-text p {
+    font-size: 11pt;
+}
+
+.cta-container button {
+    align-self: center;
+    background-color: #111111;
+    color: #F9FAF8;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0.5rem 2rem;
+    border-color: #D100D1;
+    border-radius: 10px;
+}
+
