@@ -186,3 +186,14 @@ cite {
     border-radius: 10px;
 }
 
+footer {
+    background-color: #111111;
+    padding: 1.5rem;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
